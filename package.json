@@ -1,0 +1,24 @@
+{
+  "name": "CalculadoraDeProjetos",
+  "version": "1.0.0",
+  "description": "Freelance Calculator",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "init-db": "node src/db/init.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "sql": "^0.78.0",
+    "sqlite": "^4.0.23",
+    "sqlite3": "^5.0.2",
+    "sqllite": "^1.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
